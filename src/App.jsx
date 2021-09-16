@@ -76,7 +76,7 @@ const App = () => {
   }, [state]);
 
   return (
-    <section className="stopwatch">
+    <section className="watch">
       <Controls
         time={time}
         start={start}
