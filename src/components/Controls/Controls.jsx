@@ -11,9 +11,6 @@ export const Controls = ({
 }) => (
   <>
     <header className="header">
-      <h1 className="stopwatch headline">
-        StopWatch
-      </h1>
       <h1 className="stopwatch indicator">
         {setTimeFormat(time)}
       </h1>
